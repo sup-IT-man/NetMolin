@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
                 .setIsToast(true)
                 .build();
         NetMolin.getInstance().setConfiguration(configuration).register(this);
+
     }
 
     @Override
