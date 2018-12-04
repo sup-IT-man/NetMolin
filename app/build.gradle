@@ -1,9 +1,13 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
+
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.sup-IT-man'
 
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.lml.molin"
+        //applicationId "com.lml.molin"
         minSdkVersion 16
         targetSdkVersion 27
         versionCode 1
